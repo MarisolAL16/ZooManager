@@ -16,7 +16,7 @@ public class Cuidador extends Empleado{
     
     
     public void alimentarAnimal(String animal) {
-        String actividad = "Alimento al animal: " + animal;;
+        String actividad = "Alimento al animal: " + animal;
     }
     
     public void revisarSaludAnimal(String animal) {
