@@ -44,7 +44,11 @@ public class Animal {
     
     
     public Animal(String id, String nombre, String especie, LocalDate FechaNacimiento) {
+<<<<<<< HEAD
         if (!id.matches("^[\\w]-[0-9]{4}$")) {
+=======
+        if (!id.matches("[A-Z]-\\d{4}")) {
+>>>>>>> dev
         this.id = id;}
         this.nombre = nombre;
         this.especie = especie;
