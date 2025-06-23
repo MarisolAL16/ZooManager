@@ -37,4 +37,12 @@ public class Cuidador extends Empleado{
         this.especialidad = especialidad;
         this.ActividadRealizada = new String[50];
     }
+
+    public void mostrarActividades() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    public void registrarActividad(String descripcion) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }

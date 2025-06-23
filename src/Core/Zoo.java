@@ -8,11 +8,6 @@ import Empleados.Cuidador;
 import Empleados.Empleado;
 import Empleados.Guia;
 
-/**
- *
- * @author Jonathan
- */
-public class Zoo {
 import Animals.Animal;
 import Empleados.Cuidador;
 import Empleados.Empleado;
@@ -20,13 +15,18 @@ import Empleados.Guia;
 import Recorridos.Recorrido;
 import Visitas.Visita;
 
-public class Zoologico {
+/**
+ *
+ * @author Jonathan
+ */
+public class Zoo {
+
     private Animal[] animales;
     private Empleado[] empleados;
     private Visita[] visitas;
     private Recorrido[] recorridos;
  
-    public Zoologico() {
+    public Zoo() {
         animales = new Animal [100];
         empleados = new Empleado [100];
         visitas = new Visita [100];
@@ -107,7 +107,7 @@ public class Zoologico {
     public void mostrarRecorridosPorGuia(String cedula) {
         Empleado e = buscarEmpleadoPorCedula(cedula);
         if (e instanceof Guia) {
-            ((Guia) e).mostrarReccoridos();
+            ((Guia) e).mostrarRecorridos();
         }
     }
 
@@ -121,5 +121,4 @@ public class Zoologico {
     public void mostrarAnimalesDeRecorrido(Recorrido idRecorrido) {
         System.out.println(idRecorrido.mostrarAnimalesVistos());
     }
-}
 }

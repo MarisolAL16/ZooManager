@@ -4,6 +4,7 @@
  */
 package Empleados;
 
+import Recorridos.Recorrido;
 import java.time.LocalDate;
 
 
@@ -32,6 +33,18 @@ public class Guia extends Empleado {
         super(cedula, NombreCompleto, FechaNacimiento, telefono, SalarioMensual);
         this.idiomas = idiomas;
         this.recorridos = recorridos;
+    }
+
+    public void mostrarRecorridos() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    public void añadirRecorridoRealizado(Recorrido r) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    public String getNombre_completo() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
 }
